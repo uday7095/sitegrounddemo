@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: wp.stgtesting.com
+        server: stgtesting.com
         username: farhan.ahmed@stgtesting.com
         password: Farhan@7385
-        server-dir: /wp.stgtesting.com/public_html/
+        server-dir: /cicd.stgtesting.com/public_html/
