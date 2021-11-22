@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - staging
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -17,4 +17,4 @@ jobs:
         server: stgtesting.com
         username: Farhan@stgtesting.com
         password: Farhan@7385
-        server-dir: /test.stgtesting.com/public_html/
+        server-dir: /demo.stgtesting.com/public_html/
