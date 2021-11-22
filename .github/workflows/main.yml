@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: stgtesting.com
-        username: farhan.ahmed@stgtesting.com
+        username: Farhan@stgtesting.com
         password: Farhan@7385
         server-dir: /test.stgtesting.com/public_html/
